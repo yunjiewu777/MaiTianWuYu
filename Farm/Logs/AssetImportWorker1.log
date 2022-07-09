@@ -2,8 +2,8 @@ Unity Editor version:    2021.3.4f1 (cb45f9cae8b7)
 Branch:                  2021.3/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 12.2.1 (Build 21D62)
-Darwin version:          21.3.0
+macOS version:           Version 12.4 (Build 21F79)
+Darwin version:          21.5.0
 Architecture:            x86_64
 Running under Rosetta:   YES
 Available memory:        16384 MB
@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55358
+57704
 Successfully changed project path to: /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm
 /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/yunjiewu/Documents/GitHub/Unity/Mai
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 119.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 118.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,93 +69,93 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56763
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.4f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000653 seconds.
+Registered in 0.001420 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 115.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 117.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.467 seconds
+- Completed reload, in  1.546 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1469ms)
-		BeginReloadAssembly (114ms)
+	ReloadAssembly (1548ms)
+		BeginReloadAssembly (134ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1111ms)
-			LoadAssemblies (112ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1164ms)
+			LoadAssemblies (132ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (138ms)
+			SetupTypeCache (140ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (787ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (828ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (116ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (475ms)
-				ProcessInitializeOnLoadMethodAttributes (172ms)
+				RefreshPlugins (117ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (510ms)
+				ProcessInitializeOnLoadMethodAttributes (176ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002244 seconds.
+Registered in 0.002237 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 113.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 115.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.662 seconds
+- Completed reload, in  2.590 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2664ms)
-		BeginReloadAssembly (237ms)
+	ReloadAssembly (2593ms)
+		BeginReloadAssembly (232ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (39ms)
+			DisableScriptedObjects (38ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (2115ms)
-			LoadAssemblies (137ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (2063ms)
+			LoadAssemblies (133ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (316ms)
+			SetupTypeCache (311ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (1386ms)
+			SetupLoadedEditorAssemblies (1342ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (113ms)
-				BeforeProcessingInitializeOnLoad (151ms)
-				ProcessInitializeOnLoadAttributes (954ms)
-				ProcessInitializeOnLoadMethodAttributes (153ms)
+				RefreshPlugins (116ms)
+				BeforeProcessingInitializeOnLoad (157ms)
+				ProcessInitializeOnLoadAttributes (909ms)
+				ProcessInitializeOnLoadMethodAttributes (147ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4056 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (196.5 KB). Loaded Objects now: 4505.
+Unloading 44 unused Assets / (186.4 KB). Loaded Objects now: 4505.
 Memory consumption went from 263.1 MB to 262.9 MB.
-Total: 3.315417 ms (FindLiveObjects: 0.287583 ms CreateObjectMapping: 0.109167 ms MarkObjects: 2.751250 ms  DeleteObjects: 0.166542 ms)
+Total: 3.379166 ms (FindLiveObjects: 0.276583 ms CreateObjectMapping: 0.107416 ms MarkObjects: 2.828834 ms  DeleteObjects: 0.165292 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -169,38 +169,437 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 57395.609754 seconds.
-  path: Packages/com.unity.textmeshpro/package.json
-  artifactKey: Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/package.json using Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f445814511be1caffb984507b3a4793') in 1.550537 seconds 
+  Time since last request: 352243.251136 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c23e514d24f6b65fe96946cd87fc526') in 0.010686 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000541 seconds.
-  path: Packages/com.unity.ext.nunit/package.json
-  artifactKey: Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ext.nunit/package.json using Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40fc5629c4141466786b845dfe4fc31') in 0.002284 seconds 
+  Time since last request: 0.000535 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24c38ded777c6eac716cf6ee885caa1') in 0.001377 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.688592 seconds.
-  path: Assets/M Studio/Art/Lights/Light_Wall_01_on.png
-  artifactKey: Guid(c0d4293f52e43472b9eab731842cf073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Lights/Light_Wall_01_on.png using Guid(c0d4293f52e43472b9eab731842cf073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a74519da7ec943e14bd4f7ed0fd2ab') in 0.775077 seconds 
+  Time since last request: 78.430928 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Body/BodyPullLeft.png
+  artifactKey: Guid(d90ede2311a1541ea9b1b6ced22cfccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Body/BodyPullLeft.png using Guid(d90ede2311a1541ea9b1b6ced22cfccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de8eaf36f8436449d3ae2002231552f') in 0.314266 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/M Studio/Art/Lights/Light_Wall_03.png
-  artifactKey: Guid(766af470ed65e451fa90865a4a67d6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Lights/Light_Wall_03.png using Guid(766af470ed65e451fa90865a4a67d6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ac51ccf0256b6ae6c66fd9d785cb3f') in 0.013401 seconds 
+  Time since last request: 0.000074 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Body/BodyToolRight.png
+  artifactKey: Guid(fe038f5415db94e4bbc511a84ccdd2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Body/BodyToolRight.png using Guid(fe038f5415db94e4bbc511a84ccdd2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a746440ded234826f9c7087cbed250') in 0.037498 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000055 seconds.
-  path: Assets/M Studio/Art/Lights/Light_Wall_002_off.png
-  artifactKey: Guid(b4e675386363844249bd67bedd08fdb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M Studio/Art/Lights/Light_Wall_002_off.png using Guid(b4e675386363844249bd67bedd08fdb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108680f058b11a68f908c2e59418fd16') in 0.009693 seconds 
+  path: Assets/M Studio/Art/Characters/Player/Body/BodyPullRight.png
+  artifactKey: Guid(40da97eb61bac4eb88d8f323addb9cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Body/BodyPullRight.png using Guid(40da97eb61bac4eb88d8f323addb9cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7178d357047f9d875f63219ef12ee84d') in 0.034965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Body/BodyWaterRight.png
+  artifactKey: Guid(33c77af8f580f4f0b8d052fc20e6701c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Body/BodyWaterRight.png using Guid(33c77af8f580f4f0b8d052fc20e6701c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97ffc5b85c6afe86c1e3e4e2e756729') in 0.033427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Body/BodyWalkRight.png
+  artifactKey: Guid(9af9d31693f634f3b97cd720161dc38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Body/BodyWalkRight.png using Guid(9af9d31693f634f3b97cd720161dc38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153f1209552e9e8eea17d1e66fed6fc3') in 0.034446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Body/BodyPullUp.png
+  artifactKey: Guid(787a040bb75014e898aaa4a07b8ee230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Body/BodyPullUp.png using Guid(787a040bb75014e898aaa4a07b8ee230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6c4ecf0351148e32dce629cae4adc7') in 0.034041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Body/BodyReapLeft.png
+  artifactKey: Guid(f088c671a449b472da32e32d99a37474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Body/BodyReapLeft.png using Guid(f088c671a449b472da32e32d99a37474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b3441b81778a3b9141b858cb40e3cf') in 0.033640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Body/BodyWalkLeft.png
+  artifactKey: Guid(3b155c5d4a1da4bc9b32c56004018954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Body/BodyWalkLeft.png using Guid(3b155c5d4a1da4bc9b32c56004018954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13fec528a881dde5fa7bd01c767c9f5') in 0.034263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Body/BodyToolLeft.png
+  artifactKey: Guid(9a07380e21f364b41928dd0d4cea2a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Body/BodyToolLeft.png using Guid(9a07380e21f364b41928dd0d4cea2a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ca542a5f13274b6392c20333d373a8') in 0.032951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 293.395442 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Hair/HairPullLeft.png
+  artifactKey: Guid(5918465203da34a8a90dada276cbb940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Hair/HairPullLeft.png using Guid(5918465203da34a8a90dada276cbb940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '224812d708a3dfcecd314327aca96514') in 0.037332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Hair/HairRunDown.png
+  artifactKey: Guid(ea4cfc227ef6d4495b306facced5ab07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Hair/HairRunDown.png using Guid(ea4cfc227ef6d4495b306facced5ab07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a6f0339d093cde3787d636b2c9b78b') in 0.031212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Hair/HairReapUp.png
+  artifactKey: Guid(4826b20f384ee4fbbaddd9dad2dfb940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Hair/HairReapUp.png using Guid(4826b20f384ee4fbbaddd9dad2dfb940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e44f41b6c4026b3fee42f2aa5e3d62') in 0.033238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Hair/HairRunRight.png
+  artifactKey: Guid(d7341854cf5b244f9a1b1a1edd38d9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Hair/HairRunRight.png using Guid(d7341854cf5b244f9a1b1a1edd38d9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fcba74a32ac3c13d7ff336355ee118b') in 0.035646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Hair/HairWaterUp.png
+  artifactKey: Guid(670560cfe816e420cabb53b24dfaad36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Hair/HairWaterUp.png using Guid(670560cfe816e420cabb53b24dfaad36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d45257fbc27b969c8173125d1cc4d7') in 0.034454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Hair/HairRunLeft.png
+  artifactKey: Guid(9460281083b624cd28f08aa700be80cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Hair/HairRunLeft.png using Guid(9460281083b624cd28f08aa700be80cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef83fe34e8c42a003e319d19b6f50a16') in 0.033872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Hair/HairWaterDown.png
+  artifactKey: Guid(ccb2cfa8e809f4793a6ca0c3bbf71fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Hair/HairWaterDown.png using Guid(ccb2cfa8e809f4793a6ca0c3bbf71fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42702240b76e95d35e5c00439a059f9') in 0.033218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Hair/HairReapDown.png
+  artifactKey: Guid(95b7d1699ae004fc788fdf8a62354bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Hair/HairReapDown.png using Guid(95b7d1699ae004fc788fdf8a62354bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5220da68b32d3d942e596fa145de34d4') in 0.034690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Hair/HairPullUp.png
+  artifactKey: Guid(427fe565d7eff479784a98bb5533b40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Hair/HairPullUp.png using Guid(427fe565d7eff479784a98bb5533b40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60dc2dc89694784ab8f38998a170ae3') in 0.033253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Hair/HairToolDown.png
+  artifactKey: Guid(8a0778ccb4eb143dc869f7edd9b5e5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Hair/HairToolDown.png using Guid(8a0778ccb4eb143dc869f7edd9b5e5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c2fece08251336ec722f8ed008c1b2') in 0.034751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Hair/HairWaterRight.png
+  artifactKey: Guid(84df3b52216d04f938809112f6ee026f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Hair/HairWaterRight.png using Guid(84df3b52216d04f938809112f6ee026f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046cab2c0c2b0684b651962acf46c5dc') in 0.034973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Hair/HairWalkDown.png
+  artifactKey: Guid(4e149b0e767fc42668e738ecf9b4fa7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Hair/HairWalkDown.png using Guid(4e149b0e767fc42668e738ecf9b4fa7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5a5a3a5cef3174e3f0267cbb52f350') in 0.034871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.432871 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Arm/ArmHoldRunLeft.png
+  artifactKey: Guid(c7ddac5149f3748ba9135710e9cd6cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Arm/ArmHoldRunLeft.png using Guid(c7ddac5149f3748ba9135710e9cd6cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55bd6203cfbc48eea611ef48f88d4b4') in 0.041477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Arm/ArmHoldWalkRight.png
+  artifactKey: Guid(c69ca3483a7984859a016a9142688b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Arm/ArmHoldWalkRight.png using Guid(c69ca3483a7984859a016a9142688b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15ed0703ac31521b3bd75debb94e535') in 0.035080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Arm/ArmRunRight.png
+  artifactKey: Guid(a525ab565754242c9b2cebb0ac528776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Arm/ArmRunRight.png using Guid(a525ab565754242c9b2cebb0ac528776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68909952430d304478b83f543136f889') in 0.033836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Arm/ArmPullUp.png
+  artifactKey: Guid(99ade7c7108534e50baa6d8bb0341e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Arm/ArmPullUp.png using Guid(99ade7c7108534e50baa6d8bb0341e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc42c1b1490d3491156893fb7c6fee6') in 0.034247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Arm/ArmWalkLeft.png
+  artifactKey: Guid(75b43d49b4c574046bb7eaefbe1f4355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Arm/ArmWalkLeft.png using Guid(75b43d49b4c574046bb7eaefbe1f4355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07c69288f0f77aae7d7e6526f87c29f') in 0.034077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Arm/ArmHoldRunUp.png
+  artifactKey: Guid(df12f519b2d9442afb637293feae2612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Arm/ArmHoldRunUp.png using Guid(df12f519b2d9442afb637293feae2612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e919cad298e34da698afd0c198417f55') in 0.034637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Arm/ArmWaterDown.png
+  artifactKey: Guid(aa0f22789027b4798b0ba3bc3fda6d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Arm/ArmWaterDown.png using Guid(aa0f22789027b4798b0ba3bc3fda6d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b00be2b462de403c2943c5761f4d173') in 0.034022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Arm/ArmRunLeft.png
+  artifactKey: Guid(89d784cff7d01405897a67feb83e2fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Arm/ArmRunLeft.png using Guid(89d784cff7d01405897a67feb83e2fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545f6c78f66bb9345bddd63f99fc8fe6') in 0.034029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Arm/ArmWalkDown.png
+  artifactKey: Guid(73a809d2a24874634b94654bad003ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Arm/ArmWalkDown.png using Guid(73a809d2a24874634b94654bad003ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8f477c0511caa3181fac8b514d2a90') in 0.034586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Arm/ArmToolDown.png
+  artifactKey: Guid(e06587e3c7eef48e6b293811e025f967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Arm/ArmToolDown.png using Guid(e06587e3c7eef48e6b293811e025f967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660eaa763662b64589342182334ec780') in 0.036367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Arm/ArmWaterRight.png
+  artifactKey: Guid(e96848df7f5934c4a83843c5b2bb6631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Arm/ArmWaterRight.png using Guid(e96848df7f5934c4a83843c5b2bb6631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a705c50b42a951d766d591f031b071f9') in 0.034250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Arm/ArmPullLeft.png
+  artifactKey: Guid(8d8a42f2c462a4de9b0df4fe10fe29dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Arm/ArmPullLeft.png using Guid(8d8a42f2c462a4de9b0df4fe10fe29dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c7f192beef0750d036e9567c8c5eb4') in 0.033547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Arm/ArmRunDown.png
+  artifactKey: Guid(0a885a691751047c0809c9e5e5cc9e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Arm/ArmRunDown.png using Guid(0a885a691751047c0809c9e5e5cc9e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095cc8035da8cf53261dca0fd25eb61d') in 0.033242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Arm/ArmHoldRunRight.png
+  artifactKey: Guid(df37730f9d1f94281a5b8594cb75ad60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Arm/ArmHoldRunRight.png using Guid(df37730f9d1f94281a5b8594cb75ad60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3993ba448a82e8134fa0f93e2b5433bd') in 0.035875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Arm/ArmWaterUp.png
+  artifactKey: Guid(ce03ccef1c7dc42c7a2b3c0be583edbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Arm/ArmWaterUp.png using Guid(ce03ccef1c7dc42c7a2b3c0be583edbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdaa8ea3b7a55b19bee12df9a01f89f0') in 0.035268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/M Studio/Art/Characters/Player/Arm/ArmPullDown.png
+  artifactKey: Guid(458adca69ee234661ac2efe246a448b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Characters/Player/Arm/ArmPullDown.png using Guid(458adca69ee234661ac2efe246a448b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a771c996acf5c6a721abbfc4f4df5112') in 0.036620 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002414 seconds.
+Registered in 0.002185 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.569 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2572ms)
+		BeginReloadAssembly (281ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (46ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (91ms)
+		EndReloadAssembly (2055ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (325ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (1339ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (998ms)
+				ProcessInitializeOnLoadMethodAttributes (183ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (172.4 KB). Loaded Objects now: 4514.
+Memory consumption went from 272.2 MB to 272.0 MB.
+Total: 3.623625 ms (FindLiveObjects: 0.299958 ms CreateObjectMapping: 0.097042 ms MarkObjects: 3.020084 ms  DeleteObjects: 0.205125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 419.631715 seconds.
+  path: Assets/M Studio/Art/Items/Bushes/bushes_02.png
+  artifactKey: Guid(3ea72fe4137c444dbbbddb8e64ab97ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Items/Bushes/bushes_02.png using Guid(3ea72fe4137c444dbbbddb8e64ab97ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc7b48a7458c6fa84f6eb9431dabd38') in 0.150982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/M Studio/Art/Items/Bushes/bushes_03.png
+  artifactKey: Guid(72d51741fece74e6c9d6cc266bd3e961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Items/Bushes/bushes_03.png using Guid(72d51741fece74e6c9d6cc266bd3e961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df725fe4b74473a3f67dec9ee957d27') in 0.014891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/M Studio/Art/Items/Bushes/bushes_08.png
+  artifactKey: Guid(3eb9fddd25b8548139877c93ed12a178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Items/Bushes/bushes_08.png using Guid(3eb9fddd25b8548139877c93ed12a178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225d3c415c92f68b1ca93bc843658cab') in 0.010041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/M Studio/Art/Items/Bushes/bushes_06.png
+  artifactKey: Guid(166c76cc13e124cc29fcade2273d9631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Items/Bushes/bushes_06.png using Guid(166c76cc13e124cc29fcade2273d9631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ba88f48b80ce8577cf0237ef46e0fa') in 0.011003 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002322 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.401 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2403ms)
+		BeginReloadAssembly (323ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (52ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (107ms)
+		EndReloadAssembly (1840ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (327ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1143ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (851ms)
+				ProcessInitializeOnLoadMethodAttributes (131ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (172.3 KB). Loaded Objects now: 4526.
+Memory consumption went from 272.5 MB to 272.4 MB.
+Total: 3.194917 ms (FindLiveObjects: 0.211417 ms CreateObjectMapping: 0.093750 ms MarkObjects: 2.716083 ms  DeleteObjects: 0.169167 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002357 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.497 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2500ms)
+		BeginReloadAssembly (315ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (50ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (101ms)
+		EndReloadAssembly (1942ms)
+			LoadAssemblies (163ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (347ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (1171ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (850ms)
+				ProcessInitializeOnLoadMethodAttributes (149ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (173.5 KB). Loaded Objects now: 4529.
+Memory consumption went from 273.3 MB to 273.2 MB.
+Total: 3.270917 ms (FindLiveObjects: 0.213584 ms CreateObjectMapping: 0.096875 ms MarkObjects: 2.775292 ms  DeleteObjects: 0.183917 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002146 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
@@ -209,40 +608,1675 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.462 seconds
+- Completed reload, in  2.425 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2464ms)
-		BeginReloadAssembly (256ms)
+	ReloadAssembly (2427ms)
+		BeginReloadAssembly (249ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (44ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (1966ms)
-			LoadAssemblies (115ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (1928ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (316ms)
+			SetupTypeCache (313ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (1202ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (881ms)
+				ProcessInitializeOnLoadMethodAttributes (151ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (172.4 KB). Loaded Objects now: 4532.
+Memory consumption went from 273.6 MB to 273.4 MB.
+Total: 3.065291 ms (FindLiveObjects: 0.267250 ms CreateObjectMapping: 0.111917 ms MarkObjects: 2.529458 ms  DeleteObjects: 0.155584 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002534 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.387 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2390ms)
+		BeginReloadAssembly (244ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (47ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1898ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (312ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (1267ms)
+			SetupLoadedEditorAssemblies (1206ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (36ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (890ms)
+				ProcessInitializeOnLoadMethodAttributes (150ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (172.4 KB). Loaded Objects now: 4535.
+Memory consumption went from 273.8 MB to 273.6 MB.
+Total: 2.962875 ms (FindLiveObjects: 0.238042 ms CreateObjectMapping: 0.101291 ms MarkObjects: 2.428958 ms  DeleteObjects: 0.189375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002408 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.429 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2432ms)
+		BeginReloadAssembly (233ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (44ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1954ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (309ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1265ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (130ms)
-				ProcessInitializeOnLoadAttributes (935ms)
+				ProcessInitializeOnLoadAttributes (946ms)
+				ProcessInitializeOnLoadMethodAttributes (151ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (172.3 KB). Loaded Objects now: 4538.
+Memory consumption went from 274.0 MB to 273.8 MB.
+Total: 2.954750 ms (FindLiveObjects: 0.233000 ms CreateObjectMapping: 0.104833 ms MarkObjects: 2.453792 ms  DeleteObjects: 0.161792 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002820 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.387 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2389ms)
+		BeginReloadAssembly (264ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (46ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1882ms)
+			LoadAssemblies (147ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (307ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1181ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (876ms)
+				ProcessInitializeOnLoadMethodAttributes (142ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (172.3 KB). Loaded Objects now: 4541.
+Memory consumption went from 274.2 MB to 274.1 MB.
+Total: 3.057250 ms (FindLiveObjects: 0.230750 ms CreateObjectMapping: 0.102917 ms MarkObjects: 2.571459 ms  DeleteObjects: 0.151042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002357 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.491 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2493ms)
+		BeginReloadAssembly (260ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (46ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1985ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (315ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (1259ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (947ms)
+				ProcessInitializeOnLoadMethodAttributes (142ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (172.6 KB). Loaded Objects now: 4544.
+Memory consumption went from 274.5 MB to 274.3 MB.
+Total: 2.983625 ms (FindLiveObjects: 0.259167 ms CreateObjectMapping: 0.107375 ms MarkObjects: 2.469833 ms  DeleteObjects: 0.146375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002592 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.398 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2400ms)
+		BeginReloadAssembly (234ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (42ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1928ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (309ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1217ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (894ms)
 				ProcessInitializeOnLoadMethodAttributes (163ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (22ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4051 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (172.2 KB). Loaded Objects now: 4517.
-Memory consumption went from 275.8 MB to 275.6 MB.
-Total: 3.139625 ms (FindLiveObjects: 0.216542 ms CreateObjectMapping: 0.089708 ms MarkObjects: 2.698375 ms  DeleteObjects: 0.134125 ms)
+Unloading 4052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (172.3 KB). Loaded Objects now: 4547.
+Memory consumption went from 274.7 MB to 274.5 MB.
+Total: 3.126500 ms (FindLiveObjects: 0.226083 ms CreateObjectMapping: 0.107208 ms MarkObjects: 2.619125 ms  DeleteObjects: 0.172875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18291.805694 seconds.
+  path: Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_1.asset
+  artifactKey: Guid(28cff81e0423d4d3a984b2d9feaba135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_1.asset using Guid(28cff81e0423d4d3a984b2d9feaba135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf407a7db0d0eb258682ea7fde77de6c') in 0.210415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_33.asset
+  artifactKey: Guid(e6ca5e164e5574eb1ae949f8019bc2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_33.asset using Guid(e6ca5e164e5574eb1ae949f8019bc2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09272013313a1088e16c3d5de0f8c14d') in 0.006268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_3.asset
+  artifactKey: Guid(8f950e5be35524de7bdbefba7d59f122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_3.asset using Guid(8f950e5be35524de7bdbefba7d59f122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7402beb2a234790b9f1dc904d13284') in 0.003859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_53.asset
+  artifactKey: Guid(5cdaf95adb1914355862017a86191a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_53.asset using Guid(5cdaf95adb1914355862017a86191a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431eff413fa358066281d630664530e1') in 0.003811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_7.asset
+  artifactKey: Guid(23a1fc7579b0b455488e3bdf676c941c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_7.asset using Guid(23a1fc7579b0b455488e3bdf676c941c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f097d730e4541b582fdd91c77183b2fe') in 0.003785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_58.asset
+  artifactKey: Guid(05db5437b860e45a2845208056a1b464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_58.asset using Guid(05db5437b860e45a2845208056a1b464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee53b078a9e39d2c7ec2c95e21b882c0') in 0.004301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_18.asset
+  artifactKey: Guid(df6a760805b57433b88e1f9dcc081723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_18.asset using Guid(df6a760805b57433b88e1f9dcc081723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f70381072d557d3504e7912b0d8789f') in 0.003853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_23.asset
+  artifactKey: Guid(43c91e02a5d68452c9551753d5e57d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_23.asset using Guid(43c91e02a5d68452c9551753d5e57d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42e2bed14ea24e19c9c727781012fdb') in 0.004164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_61.asset
+  artifactKey: Guid(ec7ad24d7e882462e83f67a9445f0f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_61.asset using Guid(ec7ad24d7e882462e83f67a9445f0f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd67621ca5dc6ba7199cc74356545a44') in 0.004288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_9.asset
+  artifactKey: Guid(f1b6255ed43d749029f104ef1b7ca100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_9.asset using Guid(f1b6255ed43d749029f104ef1b7ca100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd56feb9943b36ac6e507b500b2b7fc') in 0.003958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_59.asset
+  artifactKey: Guid(4cda5dfb5d38b41e188266f8489ead2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_59.asset using Guid(4cda5dfb5d38b41e188266f8489ead2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ed76a3d26cea0c8b12b2a31bad8fd8') in 0.003896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_51.asset
+  artifactKey: Guid(5f1cde45816e54bafb514f873b217fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_51.asset using Guid(5f1cde45816e54bafb514f873b217fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385b5df5b8c5f9a9bf66f7983c4b04c5') in 0.003984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_55.asset
+  artifactKey: Guid(839ed5f0cb3f240109889b8955395568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_55.asset using Guid(839ed5f0cb3f240109889b8955395568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66705a07936cde738a7caeebac3a4876') in 0.003977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_22.asset
+  artifactKey: Guid(049baece3a92e49168bb9833fb126c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_22.asset using Guid(049baece3a92e49168bb9833fb126c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56bb05f02dbde25caf3a86539cd754d0') in 0.004125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_25.asset
+  artifactKey: Guid(0aab9e63badac487ca264393fcc391fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_25.asset using Guid(0aab9e63badac487ca264393fcc391fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb24e1436e9a5bf740e0a61f91405ac3') in 0.003923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_64.asset
+  artifactKey: Guid(07892a995570d4806ac9ff0dea158d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_64.asset using Guid(07892a995570d4806ac9ff0dea158d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1427da312d23bf29f44f684b8dbf9f23') in 0.003462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_45.asset
+  artifactKey: Guid(0452b005bf8ad4f03bc262f8d73a4f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Tilemap/Tiles/Base/BaseMap1@20_45.asset using Guid(0452b005bf8ad4f03bc262f8d73a4f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ade28cb1b26df9f175dd7b4a039af9') in 0.004112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.214300 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap2@20.png
+  artifactKey: Guid(5f1658cda1d5c43388391482ee73b92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap2@20.png using Guid(5f1658cda1d5c43388391482ee73b92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6217ca953ff88a8aba6f768ae46397') in 1.577225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/M Studio/Art/Maps/StoneMap2@20.png
+  artifactKey: Guid(7d9d71e0d8f72449fa71187f75a87efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/StoneMap2@20.png using Guid(7d9d71e0d8f72449fa71187f75a87efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc59d1241e1f0aefd089bf3a855a1be') in 0.248277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/M Studio/Art/Maps/Inside02_tiles@20.png
+  artifactKey: Guid(8dc6326a6c27549d4a4c4e7202b7c72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/Inside02_tiles@20.png using Guid(8dc6326a6c27549d4a4c4e7202b7c72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c741dc21a1446b045a055d8962a66be') in 0.648710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.832579 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_1.asset
+  artifactKey: Guid(e7edc1133c2354509a3ca38e7f2d7fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_1.asset using Guid(e7edc1133c2354509a3ca38e7f2d7fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9f951504aa1d224ed8b5b6b6c5e17a') in 0.057763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_54.asset
+  artifactKey: Guid(754125e4d78a343818e46c98ecc84bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_54.asset using Guid(754125e4d78a343818e46c98ecc84bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd171d187901e937492c7f6a98fafdb0e') in 0.006914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_38.asset
+  artifactKey: Guid(f8abc04d65c644618a14efd91464571a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_38.asset using Guid(f8abc04d65c644618a14efd91464571a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd562e4b2706c52167c5b3471964deb38') in 0.006233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_63.asset
+  artifactKey: Guid(6fb504b86d0d7442f992519ccab38408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_63.asset using Guid(6fb504b86d0d7442f992519ccab38408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7322579923372520b23ec26303baf280') in 0.006629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_5.asset
+  artifactKey: Guid(c6d3b0c52aa7d48c3b188ea621fdb614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_5.asset using Guid(c6d3b0c52aa7d48c3b188ea621fdb614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d8747ade847837e97090b03507806f') in 0.007230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_6.asset
+  artifactKey: Guid(7bd432cb646e54eaebef795651198b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_6.asset using Guid(7bd432cb646e54eaebef795651198b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9247b879a9c21f57710e326d309f60b4') in 0.006198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_26.asset
+  artifactKey: Guid(2767eb335cf604498b8a27797287cfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_26.asset using Guid(2767eb335cf604498b8a27797287cfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76880f4472462f012df46ca9531a2b8b') in 0.007010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_9.asset
+  artifactKey: Guid(13fa3018772584b6992336c9a51f6347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_9.asset using Guid(13fa3018772584b6992336c9a51f6347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29bb606c5e56774aa613cf01a964802c') in 0.007001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_46.asset
+  artifactKey: Guid(600be2fee560b4ac7aa5c56471be0dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_46.asset using Guid(600be2fee560b4ac7aa5c56471be0dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e51ca738a7aaf7500b44fe235463c09') in 0.006406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_52.asset
+  artifactKey: Guid(0bff4ecbd90424b3593c15ceaa00c194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_52.asset using Guid(0bff4ecbd90424b3593c15ceaa00c194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1976af13defb9f07e3c13aadb430d9') in 0.006992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_53.asset
+  artifactKey: Guid(630c737c6592244f595b925b1711bd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_53.asset using Guid(630c737c6592244f595b925b1711bd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ab0a0ba540f25f2a9cf3cbf6915f59') in 0.007177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_32.asset
+  artifactKey: Guid(f9637e5cafc89444095f527be3026d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_32.asset using Guid(f9637e5cafc89444095f527be3026d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65af9f2299eabe47887ebaf6dc50c85') in 0.006230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_24.asset
+  artifactKey: Guid(f07147fb296d84153814a328137d7306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_24.asset using Guid(f07147fb296d84153814a328137d7306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f84b11d520a74f2fd339f5ef65f3541') in 0.007496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_3.asset
+  artifactKey: Guid(e7eb92fe581c94fa18f519f1b79fc74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_3.asset using Guid(e7eb92fe581c94fa18f519f1b79fc74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b44c9d634e1503242c52cf514c2d23') in 0.006621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_34.asset
+  artifactKey: Guid(53f2a9bd777e5484c96514915d5991d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_34.asset using Guid(53f2a9bd777e5484c96514915d5991d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212ce749a0541575a48c2a3335163c26') in 0.006732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_35.asset
+  artifactKey: Guid(c2e8e6538a04d4f3296c803a825e1f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_35.asset using Guid(c2e8e6538a04d4f3296c803a825e1f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de90d3d10354c6c6048f42e3bf6a9d7c') in 0.007047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_8.asset
+  artifactKey: Guid(ef07d4bf4534641839b0968f80a0c080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_8.asset using Guid(ef07d4bf4534641839b0968f80a0c080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d0accb1c66af2667fbaf0af91663ca') in 0.006841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_55.asset
+  artifactKey: Guid(71af9da3c902140f1a386fc73356ce34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_55.asset using Guid(71af9da3c902140f1a386fc73356ce34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525fd2fe66cfa2f9b8f443976c596a99') in 0.006327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_47.asset
+  artifactKey: Guid(f7d92f21c6cb94699902b3447234dd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_47.asset using Guid(f7d92f21c6cb94699902b3447234dd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a000a0e6dcfc718d627517d08275d0b') in 0.007053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_33.asset
+  artifactKey: Guid(09e110ca8b1dd433db2d097c114aa1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_33.asset using Guid(09e110ca8b1dd433db2d097c114aa1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c82114fac33450f3dde3c2296f08432') in 0.006849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_2.asset
+  artifactKey: Guid(d1009b64c828e4c63ab6be7e773149d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_2.asset using Guid(d1009b64c828e4c63ab6be7e773149d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093eb338f79b1e264d8aefa20f922380') in 0.006612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_62.asset
+  artifactKey: Guid(9524a1ea280304d758a12cc39e49fc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_62.asset using Guid(9524a1ea280304d758a12cc39e49fc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d75180aac03b7e212020d8b3f3bcfa') in 0.005918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_20.asset
+  artifactKey: Guid(4b3ca0e44e496431faacacfad4cf5be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_20.asset using Guid(4b3ca0e44e496431faacacfad4cf5be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db506c8a07e46190c98229f5d4ab2d10') in 0.006940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.745957 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_72.asset
+  artifactKey: Guid(fe9df1b23a3f64ab2bd173c21675ace0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_72.asset using Guid(fe9df1b23a3f64ab2bd173c21675ace0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a2ba48891fb7a69fe3835b851cf854') in 0.007904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_85.asset
+  artifactKey: Guid(3ffc8eeeba79a44ce903cd765906d0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_85.asset using Guid(3ffc8eeeba79a44ce903cd765906d0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '940ec8ba9190a347a6f2ef12178d7abc') in 0.007557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_86.asset
+  artifactKey: Guid(798c60d0c0ad3427fa3aa60539090db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_86.asset using Guid(798c60d0c0ad3427fa3aa60539090db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180c5877f9709d7a2ce914d8e4f2d26f') in 0.006379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_75.asset
+  artifactKey: Guid(8999f3288658440639e763893afa2c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_75.asset using Guid(8999f3288658440639e763893afa2c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996ad64b07844c9d01577a66052336b0') in 0.008189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_73.asset
+  artifactKey: Guid(5766418fd983e4102a62447d058f810f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_73.asset using Guid(5766418fd983e4102a62447d058f810f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58babf37385fc45b53f62355bcfda149') in 0.006531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_99.asset
+  artifactKey: Guid(0275aaa47947b4bce8037323047db905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_99.asset using Guid(0275aaa47947b4bce8037323047db905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2368742fbcd73f50be185ccc53d57e2') in 0.007410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_93.asset
+  artifactKey: Guid(a2fbcdef2a8b34eb697c3510ded48eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_93.asset using Guid(a2fbcdef2a8b34eb697c3510ded48eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d208296de0caa86793bfd98d48c7aa') in 0.006711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_100.asset
+  artifactKey: Guid(b7d47266f165445ab81a00b6eb495cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_100.asset using Guid(b7d47266f165445ab81a00b6eb495cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca4acc7e30d6f0d53b85ca0fcde7274') in 0.006764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_105.asset
+  artifactKey: Guid(db33f1676c0464eeca538d60af3014d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_105.asset using Guid(db33f1676c0464eeca538d60af3014d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40148ffaf1eedbdfccc0620cdefe3c6b') in 0.006716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_104.asset
+  artifactKey: Guid(2c48434d809ea4ea1b50ddbb2f0c5883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_104.asset using Guid(2c48434d809ea4ea1b50ddbb2f0c5883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578e0b9aee59babe689a298afa515c5f') in 0.006409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_117.asset
+  artifactKey: Guid(8b203ce07aa9044d9bb94045c212ddf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_117.asset using Guid(8b203ce07aa9044d9bb94045c212ddf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fde9a9653ac86a187e2147871297f22') in 0.006110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_119.asset
+  artifactKey: Guid(4123197963dad4e72adf6b23123dc669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_119.asset using Guid(4123197963dad4e72adf6b23123dc669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1ca9b2c970b629dd9929ffa2da7ce4') in 0.006351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_108.asset
+  artifactKey: Guid(b49eb111ad7684abba7f3ddbd5e71674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_108.asset using Guid(b49eb111ad7684abba7f3ddbd5e71674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee3f7ea46985b2cafa816743630300b3') in 0.006620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_113.asset
+  artifactKey: Guid(51694e2d6b9684bf8b4f34d981caa3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_113.asset using Guid(51694e2d6b9684bf8b4f34d981caa3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c426c3611d4a37e33e2942926b1f95') in 0.005944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_116.asset
+  artifactKey: Guid(e0b4f727e5cdd42b8832d7e3eb941e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_116.asset using Guid(e0b4f727e5cdd42b8832d7e3eb941e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843bf05c88071d7b7979f689c24450c2') in 0.006022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_151.asset
+  artifactKey: Guid(bddb67a0fc4d841c7b936ce692d7b776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_151.asset using Guid(bddb67a0fc4d841c7b936ce692d7b776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ee54b5f5f7f9a9b4f754fab2658fe7') in 0.007594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_131.asset
+  artifactKey: Guid(b4df2a882d0c24eed992afaad92ab625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_131.asset using Guid(b4df2a882d0c24eed992afaad92ab625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7daf561698392b74aa12725a8a6a369c') in 0.006096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_141.asset
+  artifactKey: Guid(e81fd5f90c732473596889d125180a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_141.asset using Guid(e81fd5f90c732473596889d125180a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94848c280d810ce070ae20f9b7d57166') in 0.006625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_135.asset
+  artifactKey: Guid(18e2483b018ca48749319d4026cbb5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_135.asset using Guid(18e2483b018ca48749319d4026cbb5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cca2a2014a68ff8a168e53c6ac91fe1') in 0.006488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_129.asset
+  artifactKey: Guid(8891a7776104a4775945a4547d3b51d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_129.asset using Guid(8891a7776104a4775945a4547d3b51d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d1a7992fb43e8d02ae6e5e9adc2113') in 0.006358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_145.asset
+  artifactKey: Guid(2cbc738f8850e4f2dbe04e6855aaecb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_145.asset using Guid(2cbc738f8850e4f2dbe04e6855aaecb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3d635e50178338d3bc8058c64b3839') in 0.005985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_150.asset
+  artifactKey: Guid(5c4d019221dc24d6c943c11468b852bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_150.asset using Guid(5c4d019221dc24d6c943c11468b852bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1dcb9ce49ff31cb5f800000d093336') in 0.006171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_146.asset
+  artifactKey: Guid(6f1f83edde175434f936a2d5026a3f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_146.asset using Guid(6f1f83edde175434f936a2d5026a3f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5817e1ce7b1131491915d3ac7b038024') in 0.006141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_153.asset
+  artifactKey: Guid(a07b550370f5e433a881d2e280bd2f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_153.asset using Guid(a07b550370f5e433a881d2e280bd2f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e2e2f0bb54dd838328c7713ce864ac') in 0.006547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_163.asset
+  artifactKey: Guid(0aa1b2338b26d40f196185d9d55a69a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_163.asset using Guid(0aa1b2338b26d40f196185d9d55a69a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416af4292dac924d5837835adc193d08') in 0.006578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_178.asset
+  artifactKey: Guid(b5119d878fe3c4348af1c1c72bfa9eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_178.asset using Guid(b5119d878fe3c4348af1c1c72bfa9eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245d732642a62e0f24db46a310fd1ca3') in 0.006115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_168.asset
+  artifactKey: Guid(8801c2941c2f6486684bf759ae11ab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_168.asset using Guid(8801c2941c2f6486684bf759ae11ab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c14f814a2c89a24f976a41742b8c2c') in 0.006906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_162.asset
+  artifactKey: Guid(80cb186a1b5694047bab406317cbd07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_162.asset using Guid(80cb186a1b5694047bab406317cbd07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44e35a30c50d5c4976242d5a4affe46') in 0.006185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_174.asset
+  artifactKey: Guid(9ed9bfe6fee97413a907ecf3a1146585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_174.asset using Guid(9ed9bfe6fee97413a907ecf3a1146585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2103a16577b522d2b45de19c72a0478f') in 0.006426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_186.asset
+  artifactKey: Guid(ec76a4c47c2b44d02881365eeec79141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_186.asset using Guid(ec76a4c47c2b44d02881365eeec79141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0bfde90807aadc61529796312299ba') in 0.006179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_171.asset
+  artifactKey: Guid(c17bb98e6378747f6a93ec87a71515e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_171.asset using Guid(c17bb98e6378747f6a93ec87a71515e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8bf19e647cfb1528a0839c2285503f') in 0.006857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_173.asset
+  artifactKey: Guid(20845b26a4b8146de8980918cee4eb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_173.asset using Guid(20845b26a4b8146de8980918cee4eb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21fb21b57341db8b2e2069953aa8d3af') in 0.006653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_199.asset
+  artifactKey: Guid(2c757691a6ca24de2a8afde7517c7a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_199.asset using Guid(2c757691a6ca24de2a8afde7517c7a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b858346bab537891da8e41b1719b75') in 0.006786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_188.asset
+  artifactKey: Guid(860b5fb9ef64043ed9b86d982aa72a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_188.asset using Guid(860b5fb9ef64043ed9b86d982aa72a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dcdeb6eea8d98a3bfce1f3e34c4ddb1') in 0.005857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_191.asset
+  artifactKey: Guid(735693f145b2045ce8d9689040ea023e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_191.asset using Guid(735693f145b2045ce8d9689040ea023e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa9647269561f51f18ffeeba0228d1e') in 0.005784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_177.asset
+  artifactKey: Guid(d961ee9f6aa37428482e1f1e17070563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_177.asset using Guid(d961ee9f6aa37428482e1f1e17070563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f4ee529683b24a06ff06465357fb7d') in 0.006119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_167.asset
+  artifactKey: Guid(47af7095786f1403b8db049e24ce3d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_167.asset using Guid(47af7095786f1403b8db049e24ce3d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c00a3f7508fce68c325522552e11ed') in 0.006181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_169.asset
+  artifactKey: Guid(219234f0a7e944c0c9f5ca15faa61cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_169.asset using Guid(219234f0a7e944c0c9f5ca15faa61cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1cdf34fde372796b47348041a09969') in 0.006301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_195.asset
+  artifactKey: Guid(f84982ec263a94a208876da046845d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_195.asset using Guid(f84982ec263a94a208876da046845d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48fe33d8d8265e180ad5b1b5035e2262') in 0.006006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_196.asset
+  artifactKey: Guid(1220e8b63bc78495e824d983573e819b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_196.asset using Guid(1220e8b63bc78495e824d983573e819b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c24692b75d4861758fb1f96048653e') in 0.006889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_140.asset
+  artifactKey: Guid(71d5ac0012f38421fad65f61dd4f01db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_140.asset using Guid(71d5ac0012f38421fad65f61dd4f01db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76fe2ddc5090f8ef11b98708c964915') in 0.006119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_136.asset
+  artifactKey: Guid(cababaec70c62417aa0e0e89a9484e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_136.asset using Guid(cababaec70c62417aa0e0e89a9484e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b50a8979ea78637a84b3ec64a6e0699') in 0.006444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_147.asset
+  artifactKey: Guid(5c19206f85cdb402d95b78c4c675ab8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_147.asset using Guid(5c19206f85cdb402d95b78c4c675ab8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1133fe49a3001434d10f1d29a35197b0') in 0.006157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_184.asset
+  artifactKey: Guid(6bab1dda9ae0942e6b3e6e03c402ef31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_184.asset using Guid(6bab1dda9ae0942e6b3e6e03c402ef31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be49c0243218af0ccc9893b185abec01') in 0.007404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_161.asset
+  artifactKey: Guid(89df18c8bae544b4aa4d429d2a8adcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_161.asset using Guid(89df18c8bae544b4aa4d429d2a8adcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919deefcba34b47f9b5d01ba89922531') in 0.006283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_137.asset
+  artifactKey: Guid(d9c03c876a2e94bfabffcf2f1e3dde0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_137.asset using Guid(d9c03c876a2e94bfabffcf2f1e3dde0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbfcbd86db98c6479e44270d5b673ec9') in 0.006250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_180.asset
+  artifactKey: Guid(0112dc98253804e67b850d5d0e65a15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_180.asset using Guid(0112dc98253804e67b850d5d0e65a15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dade9848527a1b604589e2cbc85b60e') in 0.006129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_158.asset
+  artifactKey: Guid(2d2c99ad7f45e4e3a9a01af4e847f739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_158.asset using Guid(2d2c99ad7f45e4e3a9a01af4e847f739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2017dea4cba76a3bbb832c15b6cb63') in 0.005994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_121.asset
+  artifactKey: Guid(344910ceb94064ef4aaf89cbc4549ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_121.asset using Guid(344910ceb94064ef4aaf89cbc4549ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57cbf4fe01f234734a6fc0d0ee65f9c') in 0.006730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_154.asset
+  artifactKey: Guid(a19198f76122f4906a0925dfe959bebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_154.asset using Guid(a19198f76122f4906a0925dfe959bebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b9e4c798891d1788494f03b6a52218') in 0.006435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_160.asset
+  artifactKey: Guid(55e5768f4553344e0ad8271ddeabb037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_160.asset using Guid(55e5768f4553344e0ad8271ddeabb037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d6dcc159c2515409ef28e7f4c811c0') in 0.007157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_192.asset
+  artifactKey: Guid(6ae65b2b9414946bdb108ff2300750ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_192.asset using Guid(6ae65b2b9414946bdb108ff2300750ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1726fec59879945be2f6c4614cc6339') in 0.007415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_143.asset
+  artifactKey: Guid(2536c84e43cbf4ba2b90f77d4d1a0e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_143.asset using Guid(2536c84e43cbf4ba2b90f77d4d1a0e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09c50c28b24e621ed7be80aed06e5fa') in 0.006685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_144.asset
+  artifactKey: Guid(6cbae1002231b4d179f88af17eab807b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_144.asset using Guid(6cbae1002231b4d179f88af17eab807b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91b6d46a21260a6c96605fd82da6cd4') in 0.006009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_166.asset
+  artifactKey: Guid(407b0fc7a09ec4093a7c70bd3ef7512e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_166.asset using Guid(407b0fc7a09ec4093a7c70bd3ef7512e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119d94da8bb89ddfdf1c77d965b95648') in 0.006498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_112.asset
+  artifactKey: Guid(618234f457e2b417cb0b60a1aaf61302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_112.asset using Guid(618234f457e2b417cb0b60a1aaf61302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117132becf8ae3a25562a3d684b20011') in 0.005802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_152.asset
+  artifactKey: Guid(8141576fd5ffe4ddf82b4c445d8aa5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_152.asset using Guid(8141576fd5ffe4ddf82b4c445d8aa5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1634efec4589bbe4290e051d821167') in 0.006785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_126.asset
+  artifactKey: Guid(6f5d8e793e80847c99bcd39fd823ee7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_126.asset using Guid(6f5d8e793e80847c99bcd39fd823ee7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50678f378440b172a91af7c6b43c346e') in 0.007038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_207.asset
+  artifactKey: Guid(f1a1f9a1e4f894c7b901aa0f7e30fb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_207.asset using Guid(f1a1f9a1e4f894c7b901aa0f7e30fb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35c8716f56ba3c4ab48253f903feee2') in 0.006418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_206.asset
+  artifactKey: Guid(f99687240395f450897828fe482794a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_206.asset using Guid(f99687240395f450897828fe482794a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba1de8e1474c369b4194648750bbfa9') in 0.006126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_211.asset
+  artifactKey: Guid(4a29b2b83ae3a44f6869bd9802d3f88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_211.asset using Guid(4a29b2b83ae3a44f6869bd9802d3f88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40b4b96435548929b6a2e664d4b4b03') in 0.006771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_201.asset
+  artifactKey: Guid(e3e90f68d76ca4d0282c26dcec803c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_201.asset using Guid(e3e90f68d76ca4d0282c26dcec803c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acbdd221790737c391e059a4cdcbd7e8') in 0.007268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_217.asset
+  artifactKey: Guid(61f2ea267be474c5a9d23e640041a35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_217.asset using Guid(61f2ea267be474c5a9d23e640041a35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4ee63d88dec19fc07038e1e5ad9d93') in 0.008049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_223.asset
+  artifactKey: Guid(88a41b06c7edc418fa1d4433eabd62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_223.asset using Guid(88a41b06c7edc418fa1d4433eabd62cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b59fdaa5712e23eb43a2ba7747bdf0') in 0.005649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_219.asset
+  artifactKey: Guid(5c5cc8ac06e11403d88ad6d9f399b25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_219.asset using Guid(5c5cc8ac06e11403d88ad6d9f399b25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70bf4776be6a51476f68db698775b79a') in 0.006229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_213.asset
+  artifactKey: Guid(4d60388ddb4c04db79804f3f3082dd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_213.asset using Guid(4d60388ddb4c04db79804f3f3082dd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606f2b7e9e33d52e58915b09eed4a58d') in 0.005928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_233.asset
+  artifactKey: Guid(7da7714128c5241a6a2a2bff63d1b374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_233.asset using Guid(7da7714128c5241a6a2a2bff63d1b374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29244930f304c50f16d57c5f8a10aff7') in 0.006337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_226.asset
+  artifactKey: Guid(09d8c3dab3ae449d0aa00f4410b25d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_226.asset using Guid(09d8c3dab3ae449d0aa00f4410b25d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1ca609bc4657019316a0e016dd6095') in 0.005975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_238.asset
+  artifactKey: Guid(9348ed4195e6e487e8f809faa5b0a484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_238.asset using Guid(9348ed4195e6e487e8f809faa5b0a484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18be19f82099177ff5a383b187ae1d8a') in 0.006231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_235.asset
+  artifactKey: Guid(1f0498c3cb09e47d5896657161da5d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_235.asset using Guid(1f0498c3cb09e47d5896657161da5d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f662e758c99e7fdf55862a4dd6faa422') in 0.006796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_225.asset
+  artifactKey: Guid(c017c68075f8243dda1b4b750c7caa91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_225.asset using Guid(c017c68075f8243dda1b4b750c7caa91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4701d7cd02d72a345b7a63d8053c23') in 0.005745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_200.asset
+  artifactKey: Guid(54150f2a700724f1cb528de0076acd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_200.asset using Guid(54150f2a700724f1cb528de0076acd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b18959778e99a3b2214dce19833a2be') in 0.006047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_202.asset
+  artifactKey: Guid(f0dc858a2d9bc46a988ffd6f561e883c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_202.asset using Guid(f0dc858a2d9bc46a988ffd6f561e883c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2918c420a8b36352b071028c82b6ba0d') in 0.006150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_232.asset
+  artifactKey: Guid(413115a2d1dc4428b8a0ba3ffea3c8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_232.asset using Guid(413115a2d1dc4428b8a0ba3ffea3c8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cdb97343772fa75e57e590780a1e2e8') in 0.006995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_204.asset
+  artifactKey: Guid(85fb5cd27d59545af957fba95bf95692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_204.asset using Guid(85fb5cd27d59545af957fba95bf95692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28324067bf78b6d7d110f92d09a35e70') in 0.005815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_241.asset
+  artifactKey: Guid(7e4d4a502966544c9895452a7c75d7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_241.asset using Guid(7e4d4a502966544c9895452a7c75d7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519ad305b7ef9e0bc8aab934dbf28824') in 0.006204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_244.asset
+  artifactKey: Guid(43ba4f7a3b456463c950a29aeaed74c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_244.asset using Guid(43ba4f7a3b456463c950a29aeaed74c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93aec6b9b614415a212f6034344d859b') in 0.006244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_228.asset
+  artifactKey: Guid(5fb1709e458654b9bbdfd40ac12656cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_228.asset using Guid(5fb1709e458654b9bbdfd40ac12656cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae8c668a04f79afd5c030311c053612') in 0.006138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_230.asset
+  artifactKey: Guid(5004974c472d64638b07eff19c847a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_230.asset using Guid(5004974c472d64638b07eff19c847a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81251e2fc62282f4a6c74c09341a7a19') in 0.007073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_246.asset
+  artifactKey: Guid(35ecc0f17ceec4535ae7746e1e9b393e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_246.asset using Guid(35ecc0f17ceec4535ae7746e1e9b393e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c8fd1ae7f5c9e514d802681d14c25b') in 0.006339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_234.asset
+  artifactKey: Guid(fc5d2ef370c61495aa0530d8e87dd5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_234.asset using Guid(fc5d2ef370c61495aa0530d8e87dd5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ff14e976bcd11692e9284325485e1b') in 0.006372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_218.asset
+  artifactKey: Guid(0489fa04320904538b3934a4088cd4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_218.asset using Guid(0489fa04320904538b3934a4088cd4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f72b3bea6e83d0912fbaa17742f4a3dd') in 0.006153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_90.asset
+  artifactKey: Guid(003f8311b252147bcbd2dab4c92fe74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_90.asset using Guid(003f8311b252147bcbd2dab4c92fe74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e430d15c029be09270a84f5a6011524a') in 0.006340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_248.asset
+  artifactKey: Guid(e23d845fc91824c7fb0a255963d5d25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_248.asset using Guid(e23d845fc91824c7fb0a255963d5d25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7136c6328a747037d2e9fef3faf3f0ca') in 0.006373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_260.asset
+  artifactKey: Guid(c25b61253cf1e4c44b3d25c3ed8aaff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_260.asset using Guid(c25b61253cf1e4c44b3d25c3ed8aaff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce093c604f7682da2a0c0cc2cd2592ac') in 0.006728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_249.asset
+  artifactKey: Guid(a73f7a53d8b6149a6bca177ee5961a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_249.asset using Guid(a73f7a53d8b6149a6bca177ee5961a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a4698049a1b98ef1e73612b2e464f9') in 0.006042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_264.asset
+  artifactKey: Guid(63f5997f3a05d41d4b589f8476db07e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_264.asset using Guid(63f5997f3a05d41d4b589f8476db07e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0987068926677d2abfa2c277443df3fd') in 0.005912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_268.asset
+  artifactKey: Guid(d90816edbf908461194d80d6b826d4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_268.asset using Guid(d90816edbf908461194d80d6b826d4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b6ba9b03679c2a61903720f21a6ff2') in 0.005819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_274.asset
+  artifactKey: Guid(6e5bb8cfb1ff74164960a4afd38e6ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_274.asset using Guid(6e5bb8cfb1ff74164960a4afd38e6ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc86054ab2d252592290b7fd6ddf1a7') in 0.007976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_276.asset
+  artifactKey: Guid(143b4a2014b434431bab26677dcb7dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_276.asset using Guid(143b4a2014b434431bab26677dcb7dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b239e7731559b69beaa241bfd367ab3') in 0.006890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_280.asset
+  artifactKey: Guid(72483fceb78d147bd9ed03e11f475878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_280.asset using Guid(72483fceb78d147bd9ed03e11f475878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79442c958c9e22737ed0e818fbaaad4') in 0.006946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_257.asset
+  artifactKey: Guid(6b41918807c994208894ae7ca5612cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_257.asset using Guid(6b41918807c994208894ae7ca5612cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064826b79f6768143ac8e1bc86092a97') in 0.006558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_312.asset
+  artifactKey: Guid(b9f6fac8f1a2949bd8294a6280ca9964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_312.asset using Guid(b9f6fac8f1a2949bd8294a6280ca9964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4271a103eb9ea1e5b0d96291555bcea6') in 0.006840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_286.asset
+  artifactKey: Guid(e380ed67578374ba49b62486b3c79b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_286.asset using Guid(e380ed67578374ba49b62486b3c79b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c68f18ff9527c3b2278f9ec00af0ea') in 0.006086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_295.asset
+  artifactKey: Guid(9ce73fd522cb64954acb84d50e12683d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_295.asset using Guid(9ce73fd522cb64954acb84d50e12683d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3976c12976c16010e06862fb6e7481') in 0.005954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_324.asset
+  artifactKey: Guid(4360b2090f5e142178d6dbffa0ec8c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_324.asset using Guid(4360b2090f5e142178d6dbffa0ec8c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226dab0eaa8713df3277a46b06b849c4') in 0.006264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_334.asset
+  artifactKey: Guid(c836152b20022406f9795b5ca7e71fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_334.asset using Guid(c836152b20022406f9795b5ca7e71fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d342483b06bb9caa177b898331d32c') in 0.005877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@water05.asset
+  artifactKey: Guid(747fd7484907545f1a56921531b36540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@water05.asset using Guid(747fd7484907545f1a56921531b36540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a741815699d685125c0def96024a55b2') in 0.005959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@dig04.asset
+  artifactKey: Guid(b37bbd18736224eae91fa12328d4d6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@dig04.asset using Guid(b37bbd18736224eae91fa12328d4d6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c76014a5090f8fc6657571e42f9ff6') in 0.005956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@dig10.asset
+  artifactKey: Guid(eb43397a8ae9b497bbeb547fc49ed1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@dig10.asset using Guid(eb43397a8ae9b497bbeb547fc49ed1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37d699180ec91113509ac6c6951b459') in 0.006558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_259.asset
+  artifactKey: Guid(07962358be1a84abe89d2cd3a7f6de49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_259.asset using Guid(07962358be1a84abe89d2cd3a7f6de49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc27e9bf9ceebae836e4dc77b5af1b01') in 0.006001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_328.asset
+  artifactKey: Guid(88216700c11a44f73a0651902df6614b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_328.asset using Guid(88216700c11a44f73a0651902df6614b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20a4e350f614efaf762568c0531af6d') in 0.006917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@dig16.asset
+  artifactKey: Guid(93b1799125e074195ad8c457bbcda5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@dig16.asset using Guid(93b1799125e074195ad8c457bbcda5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c002e4fb081617891ae88d3c42af330e') in 0.006492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@water10.asset
+  artifactKey: Guid(ea900ae6aa46e4c859f31d10400441ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@water10.asset using Guid(ea900ae6aa46e4c859f31d10400441ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c9263874d625393c363024af5aeda2') in 0.005971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_332.asset
+  artifactKey: Guid(39fe4a567f7784690b377aaacbf5d11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_332.asset using Guid(39fe4a567f7784690b377aaacbf5d11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0393b7af6f23ad0925d940090c303831') in 0.006382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@water06.asset
+  artifactKey: Guid(7cec68be56f874e25836ae25d4d26673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@water06.asset using Guid(7cec68be56f874e25836ae25d4d26673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781e9e5ddee664a4c4e42eadb4c5e5a1') in 0.006356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_290.asset
+  artifactKey: Guid(b7de9084e4aa344d88eab01ecff744f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_290.asset using Guid(b7de9084e4aa344d88eab01ecff744f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04bdeec8447c4615a5d306977fc84675') in 0.005376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_330.asset
+  artifactKey: Guid(64c1c50d80f4e45c2806d2f1238d16d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_330.asset using Guid(64c1c50d80f4e45c2806d2f1238d16d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430e10f03f626756da93fbe3bc0bf6a3') in 0.006892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@dig09.asset
+  artifactKey: Guid(266d721cc896f4a5c8ebc03620f5d2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@dig09.asset using Guid(266d721cc896f4a5c8ebc03620f5d2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d978b862524a0bce870013019ac38a8') in 0.006793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@dig13.asset
+  artifactKey: Guid(6f8191d47a483449fb6ddc57a5d023f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@dig13.asset using Guid(6f8191d47a483449fb6ddc57a5d023f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30fb26f19139e2f88603d761f1f1374f') in 0.006105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@dig14.asset
+  artifactKey: Guid(7561c5052d1ef4bac95ef350d3d247c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@dig14.asset using Guid(7561c5052d1ef4bac95ef350d3d247c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80cfce4e4f8904fa4a0e4f5b870d59f3') in 0.005996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@water11.asset
+  artifactKey: Guid(4e5c3f6280fab4c36be2e95bf336d1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@water11.asset using Guid(4e5c3f6280fab4c36be2e95bf336d1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a76a137c7cb6b20ba622ce6173c3d5b') in 0.006082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_300.asset
+  artifactKey: Guid(501715388d8144c5cb58a7b5b0c24f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_300.asset using Guid(501715388d8144c5cb58a7b5b0c24f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b27b537adaeb4da2b6ea79bd49027a1') in 0.006388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_289.asset
+  artifactKey: Guid(8404502c2959f4ddc9308884a73ba419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_289.asset using Guid(8404502c2959f4ddc9308884a73ba419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d02023b51c6c1335d07d066a5b2d32f') in 0.006131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_319.asset
+  artifactKey: Guid(a660c5bf7aa7f47cf819fd1323f9c2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_319.asset using Guid(a660c5bf7aa7f47cf819fd1323f9c2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81fb733d26e68b4d3a9b00565d64ae60') in 0.006142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@dig08.asset
+  artifactKey: Guid(508f62ca9e513438b87a668eab668d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@dig08.asset using Guid(508f62ca9e513438b87a668eab668d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27acae3a80230eebf18b4c16b1ea0223') in 0.006315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_267.asset
+  artifactKey: Guid(d0f449f4bf73249feb4b2eeb17031833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_267.asset using Guid(d0f449f4bf73249feb4b2eeb17031833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c72d6fda3aa8769bc50bb27c5a1bc29') in 0.006345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_277.asset
+  artifactKey: Guid(fed25b6bdcb084952ab847dd39656496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_277.asset using Guid(fed25b6bdcb084952ab847dd39656496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26dda4af8a3e56cff91671c09d8efea3') in 0.006252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_255.asset
+  artifactKey: Guid(6ce5297af6778494fb33428c3aea1785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_255.asset using Guid(6ce5297af6778494fb33428c3aea1785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04cd18d00077e5fcd5eafcc9a017e6a') in 0.008726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_254.asset
+  artifactKey: Guid(c7829f54b8a8a460995b487830fb0c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_254.asset using Guid(c7829f54b8a8a460995b487830fb0c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddab1265aae4583745a81f010f83bbb2') in 0.006550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@water12.asset
+  artifactKey: Guid(82098dd08358d4f389537e120a4bfc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@water12.asset using Guid(82098dd08358d4f389537e120a4bfc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a226de71dcec483fe724c3b547529ef5') in 0.005862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_337.asset
+  artifactKey: Guid(97346e61647104126a07dd4eeff4c364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_337.asset using Guid(97346e61647104126a07dd4eeff4c364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10623bd98922f64ca076bee928639678') in 0.006190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@water04.asset
+  artifactKey: Guid(55bc1309f7f3640248bb24ee02105970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@water04.asset using Guid(55bc1309f7f3640248bb24ee02105970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc96b5ee29be7836047e34751bb5e84') in 0.006387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@dig07.asset
+  artifactKey: Guid(7784aa1f385fd43d89f0ee952ad5af81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@dig07.asset using Guid(7784aa1f385fd43d89f0ee952ad5af81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7210feeea417406d6e90579bc08075') in 0.006134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_325.asset
+  artifactKey: Guid(286c09866ffd44796b340260ded63e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_325.asset using Guid(286c09866ffd44796b340260ded63e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b8d39c9ef82b69f7fb2031797708f2') in 0.005897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_262.asset
+  artifactKey: Guid(092728f33b12348afafdc90ebf807e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_262.asset using Guid(092728f33b12348afafdc90ebf807e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d04aad191ef35934d4312097192c37b') in 0.007274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_258.asset
+  artifactKey: Guid(b8d84dc461d24459eaf20d06e276fad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_258.asset using Guid(b8d84dc461d24459eaf20d06e276fad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01d3aa07c6c9d401e11cd87922fe5c5') in 0.005882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_282.asset
+  artifactKey: Guid(c340f0e7c29ce4d3c9ec120e461320a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_282.asset using Guid(c340f0e7c29ce4d3c9ec120e461320a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5568e68c0ea69f754cecd96cf62a15cb') in 0.007157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_317.asset
+  artifactKey: Guid(99ce65a98de394fa293081a48d74d3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_317.asset using Guid(99ce65a98de394fa293081a48d74d3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776449a45933f6fb186ee1e9d99b656a') in 0.006290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_266.asset
+  artifactKey: Guid(22012a33939844e7ab8bd7c2b7ad584f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_266.asset using Guid(22012a33939844e7ab8bd7c2b7ad584f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55fd643f05a660374d051c8e4ea293b') in 0.006803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_252.asset
+  artifactKey: Guid(15ba41229abfa45c193ac925f03d5fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_252.asset using Guid(15ba41229abfa45c193ac925f03d5fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9cc183e08262e4db25a03af7975228') in 0.006836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_256.asset
+  artifactKey: Guid(da6a2dbc677d64555aced4157c5dccb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_256.asset using Guid(da6a2dbc677d64555aced4157c5dccb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103dc6d2f4a6c16725dade88b0e51cf1') in 0.006592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_322.asset
+  artifactKey: Guid(8c400713ba9584df088edd39ffe2ec0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_322.asset using Guid(8c400713ba9584df088edd39ffe2ec0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f53791622ae459746b9b2a8b75e0a2') in 0.006318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@dig05.asset
+  artifactKey: Guid(bf5b1d147c42d4e85a6e8372c8c448ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@dig05.asset using Guid(bf5b1d147c42d4e85a6e8372c8c448ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9532eef416b07b5af5095e2a14bb6d6') in 0.006466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_326.asset
+  artifactKey: Guid(e77bd8c0a1310400fa124a21dadda812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_326.asset using Guid(e77bd8c0a1310400fa124a21dadda812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852380e7de5fcaef706ce9b3201c91cf') in 0.006437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_336.asset
+  artifactKey: Guid(a872d21c3284c4a0b860624478dfeb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_336.asset using Guid(a872d21c3284c4a0b860624478dfeb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe6989ac2727d3e5a090f6a58bcd9a7') in 0.006309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_316.asset
+  artifactKey: Guid(ab2e541d36cf0449e83b842dbd3ee06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_316.asset using Guid(ab2e541d36cf0449e83b842dbd3ee06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb9f28adc883d3408fac7a87548f78a') in 0.006316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_320.asset
+  artifactKey: Guid(b0944fc157e084413a40de79acfc61d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_320.asset using Guid(b0944fc157e084413a40de79acfc61d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc84f015943898a8416f9e96bdbd34a3') in 0.005863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_251.asset
+  artifactKey: Guid(67065d901c47b4012b1cf7bccca96b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_251.asset using Guid(67065d901c47b4012b1cf7bccca96b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4a64ce46644a59979f13fd2bc5b8f7') in 0.006656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@water13.asset
+  artifactKey: Guid(e703f6d84b9aa445d9cbce17a0aa9352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@water13.asset using Guid(e703f6d84b9aa445d9cbce17a0aa9352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4fffb33bc7cec9fe024bbb7fa894373') in 0.006619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_333.asset
+  artifactKey: Guid(d0ade61180867442a8493bcc8bdbe224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_333.asset using Guid(d0ade61180867442a8493bcc8bdbe224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2cbd550134a57934348df59c778fef') in 0.006678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_269.asset
+  artifactKey: Guid(adb86ab96a61f4f4d90e29ccff44bdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_269.asset using Guid(adb86ab96a61f4f4d90e29ccff44bdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1fc5c7b7865f595dd9f022d755c656') in 0.006491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@20_306.asset
+  artifactKey: Guid(a8321691488434592a87783f6d50e31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@20_306.asset using Guid(a8321691488434592a87783f6d50e31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7d1042d2c6fa2ba1545882722c5dea') in 0.006031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/M Studio/Art/Maps/BaseMap1@water01.asset
+  artifactKey: Guid(30f2c60496c4e4e11b3ee58278811c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M Studio/Art/Maps/BaseMap1@water01.asset using Guid(30f2c60496c4e4e11b3ee58278811c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe6fa4964454b0296a25cf422ab4369') in 0.006700 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002162 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.495 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2497ms)
+		BeginReloadAssembly (275ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (45ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (85ms)
+		EndReloadAssembly (1977ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (324ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1263ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (930ms)
+				ProcessInitializeOnLoadMethodAttributes (171ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (172.5 KB). Loaded Objects now: 4556.
+Memory consumption went from 279.7 MB to 279.5 MB.
+Total: 3.269500 ms (FindLiveObjects: 0.246042 ms CreateObjectMapping: 0.107250 ms MarkObjects: 2.752584 ms  DeleteObjects: 0.162792 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002444 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.472 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2474ms)
+		BeginReloadAssembly (240ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (45ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1993ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (313ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1308ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (995ms)
+				ProcessInitializeOnLoadMethodAttributes (155ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (172.3 KB). Loaded Objects now: 4559.
+Memory consumption went from 279.9 MB to 279.7 MB.
+Total: 2.938666 ms (FindLiveObjects: 0.277417 ms CreateObjectMapping: 0.098750 ms MarkObjects: 2.404750 ms  DeleteObjects: 0.156750 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002573 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.388 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2390ms)
+		BeginReloadAssembly (241ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (46ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1907ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (309ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1206ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (887ms)
+				ProcessInitializeOnLoadMethodAttributes (155ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (172.5 KB). Loaded Objects now: 4562.
+Memory consumption went from 280.1 MB to 280.0 MB.
+Total: 3.034083 ms (FindLiveObjects: 0.196583 ms CreateObjectMapping: 0.092541 ms MarkObjects: 2.606667 ms  DeleteObjects: 0.137166 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002560 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/yunjiewu/Documents/GitHub/Unity/MaiTianWuYu/Farm/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.379 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2381ms)
+		BeginReloadAssembly (258ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (46ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1876ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (314ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (1183ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (875ms)
+				ProcessInitializeOnLoadMethodAttributes (146ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (172.3 KB). Loaded Objects now: 4565.
+Memory consumption went from 280.3 MB to 280.2 MB.
+Total: 3.083458 ms (FindLiveObjects: 0.250833 ms CreateObjectMapping: 0.098583 ms MarkObjects: 2.586333 ms  DeleteObjects: 0.146917 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 

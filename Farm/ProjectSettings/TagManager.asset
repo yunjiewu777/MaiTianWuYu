@@ -41,3 +41,36 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ground Bottom
+    uniqueID: 2917796451
+    locked: 0
+  - name: Ground Middle
+    uniqueID: 3169423505
+    locked: 0
+  - name: Ground Top
+    uniqueID: 2953041513
+    locked: 0
+  - name: Decor 1
+    uniqueID: 85494409
+    locked: 0
+  - name: Decor 2
+    uniqueID: 822826603
+    locked: 0
+  - name: Dig
+    uniqueID: 271687299
+    locked: 0
+  - name: Water
+    uniqueID: 162749277
+    locked: 0
+  - name: Instance
+    uniqueID: 2777164625
+    locked: 0
+  - name: Front 1
+    uniqueID: 1154726853
+    locked: 0
+  - name: Front 2
+    uniqueID: 1500385691
+    locked: 0
+  - name: Collision
+    uniqueID: 2449733271
+    locked: 0
